@@ -3,7 +3,7 @@ from tkinter import *
   
   
 def clicked():
-    window = Tk()  #определяем это значение как главное окно 
+    window = Tk()  #определяем "window" как главное окно 
     window.title("Д/З а может и не Д/З")  
     window.geometry('600x600') #ставим размер окна 
     window.configure(bg='lightblue') #ставим цвет фона
